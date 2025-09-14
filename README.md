@@ -83,9 +83,12 @@ To set up and run this project locally:
 5.  **Create `uploads/` directory:** Create a folder named `uploads` in your project root for review media uploads and ensure it has write permissions for your web server.
 6.  **Access the application:** Open your web browser and navigate to the local URL where your web server is hosting the project (e.g., `http://localhost/SAHYOG-Help-Platform/` or `http://localhost/index.php`).
 
+## 🌐 Live Demo
+http://sahyog.42web.io
+
 ## 🙏 Credits
 
-*   Developed by Subashree.
+*   Developed by Subashree Karur Sivakumar.
 *   Utilizes various open-source libraries including Font Awesome and Leaflet.js.
 *   Images sourced from Unsplash.
 
