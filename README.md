@@ -32,25 +32,27 @@ The platform facilitates various forms of assistance including donations (money,
 
 The project is structured with modular PHP files for different functionalities and includes common header/footer components for consistent navigation and styling.
 
-SAHYOG/
-├── connect.php                   # Database connection configuration
-├── common_header.php             # Shared header including navigation and general styles
-├── common_footer.php             # Shared footer with contact info and copyright
-├── index.php                     # Homepage with hero section, map, and core features
-├── register_donator.php          # Form for donors to register offers of help
-├── submit_donator.php            # PHP script to process donator registrations
-├── browse_donators.php           # Page to view registered donators
-├── register_helpee.php           # Form for helpees to post their needs
-├── submit_helpee.php             # PHP script to process helpee requests
-├── browse_needs.php              # Page to view current help requests
-├── girl_child_page.php           # Dedicated page for girl child welfare initiative
-├── submit_girl_child_request.php # PHP script to process girl child help requests
-├── reviews.php                   # Community reviews page with submission modal
-├── submit_review.php             # PHP script to process review submissions
-├── uploads/                      # Directory for uploaded review media (photos, videos, receipts)
-├── sahyog_database_dump.sql      # Database SQL dump for easy setup
-├── style.css                     # (If used for global styles, not inline)
-└── README.md                     # Project overview and setup instructions
+- `SAHYOG/`
+  - `connect.php`                   # Database connection configuration
+  - `common_header.php`             # Shared header including navigation and general styles
+  - `common_footer.php`             # Shared footer with contact info and copyright
+  - `index.php`                     # Homepage with hero section, map, and core features
+  - `register_donator.php`          # Form for donors to register offers of help
+  - `submit_donator.php`            # PHP script to process donator registrations
+  - `browse_donators.php`           # Page to view registered donators
+  - `register_helpee.php`           # Form for helpees to post their needs
+  - `submit_helpee.php`             # PHP script to process helpee requests
+  - `browse_needs.php`              # Page to view current help requests
+  - `girl_child_page.php`           # Dedicated page for girl child welfare initiative
+  - `submit_girl_child_request.php` # PHP script to process girl child help requests
+  - `reviews.php`                   # Community reviews page with submission modal
+  - `submit_review.php`             # PHP script to process review submissions
+  - `uploads/`                      # Directory for uploaded review media (photos, videos, receipts)
+  - `sahyog_database_dump.sql`      # Database SQL dump for easy setup
+  - `style.css`                     # (If used for global styles, not inline)
+  - `README.md`                     # Project overview and setup instructions
+
+
 
 
 ## 🗄️ Database Setup (Using Provided SQL Dump)
