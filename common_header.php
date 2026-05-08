@@ -37,35 +37,45 @@
     </header>
 
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+        line-height: 1.6;
+    }
+    
+    /* This is the part we added to fix the map issue! */
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 9999 !important;
+        width: 100%;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    @media (max-width: 768px) {
+        header > div {
+            flex-direction: column !important;
+            gap: 12px !important;
+            text-align: center;
         }
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #f8f9fa;
-            color: #333;
-            line-height: 1.6;
+        nav {
+            order: 3;
+            width: 100% !important;
         }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
+        nav ul {
+            flex-direction: column !important;
+            gap: 0.8rem !important;
         }
-        @media (max-width: 768px) {
-            header > div {
-                flex-direction: column !important;
-                gap: 12px !important;
-                text-align: center;
-            }
-            nav {
-                order: 3;
-                width: 100% !important;
-            }
-            nav ul {
-                flex-direction: column !important;
-                gap: 0.8rem !important;
-            }
-        }
-    </style>
+    }
+</style>
+
