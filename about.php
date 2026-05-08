@@ -6,7 +6,7 @@ include 'common_header.php';
 <style>
     /* General styles for the main content area */
     main.container {
-        padding-top: 20px; /* Adjust if needed to clear fixed header */
+        padding-top: 40px; /* Adjust if needed to clear fixed header */
     }
 
     .page-header-section {
