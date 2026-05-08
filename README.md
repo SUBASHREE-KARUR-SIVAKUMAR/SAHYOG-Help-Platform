@@ -91,6 +91,7 @@ http://sahyog.42web.io/index.php
 ## 🙏 Credits
 
 *   Developed by Subashree Karur Sivakumar.
+*   Connect with me on [LinkedIn](https://www.linkedin.com/in/subashree-karur-sivakumar/)
 *   Utilizes various open-source libraries including Font Awesome and Leaflet.js.
 *   Images sourced from Unsplash.
 
