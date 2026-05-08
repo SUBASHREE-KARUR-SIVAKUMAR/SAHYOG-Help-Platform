@@ -86,7 +86,7 @@ To set up and run this project locally:
 6.  **Access the application:** Open your web browser and navigate to the local URL where your web server is hosting the project (e.g., `http://localhost/SAHYOG-Help-Platform/` or `http://localhost/index.php`).
 
 ## 🌐 Live Demo
-http://sahyog.42web.io
+http://sahyog.42web.io/index.php
 
 ## 🙏 Credits
 
